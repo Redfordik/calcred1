@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <title>Сайт для решения проблемных вопросов</title>
+<head>Калькулятор</head>
+
+<body>
+        
+        <button onclick="window.location='http://www.google.com'">CE</button>   
+        
+        <form name="calculator" >
+        <br><input type="textfield" name="calcred" value=""><br>
+        <input type="button" value="1" onClick="document.calculator.calcred.value+='1'">
+        <input type="button" value="2" onClick="document.calculator.calcred.value+='2'">
+        <input type="button" value="3" onClick="document.calculator.calcred.value+='3'">
+        <input type="button" value="-" onClick="document.calculator.calcred.value+='-'"><br>
+        <input type="button" value="4" onClick="document.calculator.calcred.value+='4'">
+        <input type="button" value="5" onClick="document.calculator.calcred.value+='5'">
+        <input type="button" value="6" onClick="document.calculator.calcred.value+='6'">
+        <input type="button" value="+" onClick="document.calculator.calcred.value+='+'"><br>
+        <input type="button" value="7" onClick="document.calculator.calcred.value+='7'">
+        <input type="button" value="8" onClick="document.calculator.calcred.value+='8'">
+        <input type="button" value="9" onClick="document.calculator.calcred.value+='9'">
+        <input type="button" value="*" onClick="document.calculator.calcred.value+='*'"><br>
+        
+        <input type="button" value="0" onClick="document.calculator.calcred.value+='0'">
+        <input type="reset" value="C">
+        <input type="button" value="." onClick="document.calculator.calcred.value+='.'">
+        <input type="button" value="/" onClick="document.calculator.calcred.value+='/'">
+        <input type="button" value="=" onClick="document.calculator.calcred.value=eval(document.calculator.calcred.value)">
+        
+        
+        
+</body>
+
+</html>
